@@ -1,17 +1,47 @@
-name = list(map(str,input().split()))
+#연두 이름 입력 받기
+name = str(input())
 
 n = int(input())
 
-word_list = []
+team = []
+rate = []
+
+L = name.count('L')
+O = name.count('O')
+V = name.count('V')
+E = name.count('E')
 
 for i in range(1,n):
-    word_list = list(map(str,input().split()))
+    team[i] = str(input())
+
+for i in range(team):
+    L += team[i].count('L')
+    O += team[i].count('O')
+    V += team[i].count('V')
+    E += team[i].count('E')
+
+    rate[i] = ((L+O) * (L+V) * (L+E) * (O+V) * (O+E) * (V+E)) % 100
+
+    L -= team[i].count('L')
+    O -= team[i].count('O')
+    V -= team[i].count('V')
+    E -= team[i].count('E')
 
 
-for i in name:
-    check = []
+rate.sort()
 
-    for j in range(len(word_list)):
-        check[i] = word_list[j].count(i)
+for i in range(team):
+    L += team[i].count('L')
+    O += team[i].count('O')
+    V += team[i].count('V')
+    E += team[i].count('E')
 
-    
+    if rate[0] == ((L+O) * (L+V) * (L+E) * (O+V) * (O+E) * (V+E)) % 100:
+       print(team[i])
+       break
+
+    L -= team[i].count('L')
+    O -= team[i].count('O')
+    V -= team[i].count('V')
+    E -= team[i].count('E')
+
