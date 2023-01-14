@@ -1,4 +1,4 @@
-# 공간의 크기
+# 공간의 크기1
 n = int(input())
 plans = input().split()
 x,y = 1,1
