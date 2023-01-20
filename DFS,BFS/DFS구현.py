@@ -9,7 +9,7 @@ graph = [[0]*2 for _ in range(edge)]
 # 그래프 변환용 리스트
 new_graph = [[]*2 for _ in range(vertex_num+1)]
 
-# 방문 여부 체크용 1차원 리스트
+# 방문 여부 체크용 1차원 리스트!
 visited = [False] * (vertex_num+1)
 
 # 사용자에게 그래프 입력 받기
