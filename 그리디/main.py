@@ -1,16 +1,17 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.22
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    N, M = map(int, input().split())
+    books = list(map(int, input().split()))
+    answer = 0
+    weight = 0
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    if N == 0:
+        print(answer)
+    else:
+        for i in books:
+            if i + weight > M:
+                weight = i
+                answer += 1
+            else:
+                weight += i
+
+    print(answer)
