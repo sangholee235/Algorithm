@@ -3,7 +3,7 @@ x = int(input())
 
 line = 1
 
-# 입력 받은 수가 몇번째 라인(line)에 있고 그 라인에서 몇번째(x)에 있는지
+# 입력 받은 수가 몇번째 라인(line)에 있고 그 라인에서 몇번째(x)에 있는지11
 while x>line:
     x -= line
     line += 1
