@@ -1,4 +1,4 @@
-#연두 이름 입력 받기
+#연두 이름 입력 받기1
 name = str(input())
 
 n = int(input())
