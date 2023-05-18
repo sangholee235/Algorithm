@@ -1,5 +1,5 @@
 n = int(input())
-
+# g
 list = []
 
 for i in range(n):
