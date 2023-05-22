@@ -4,7 +4,7 @@ N = int(input())
 count = 0
 
 while N >= 0: # 설탕 소모 할때 까지 반복
-    if N % 5 == 0: # 5키로 단위로 떨어지면 ?
+    if N % 5 == 0: # 5키로 단위로 떨어지면 
        count += N//5 # 몇개인지 계산한뒤
        print(count) # 바로 출력
        break # 반복문 탈출 끝
