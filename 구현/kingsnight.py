@@ -1,2 +1,2 @@
 data = input()
-row = int(data[1]);;
+row = int(data[1])
