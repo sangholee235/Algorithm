@@ -4,7 +4,7 @@ n = int(input())
 # 지역 리스트 2차원 초기화
 area = [[0]*2 for _ in range(n)]
 
-# 안전한 구역 count
+# 안전한 구역 count1
 safe = 0
 
 # 현재 강수량
