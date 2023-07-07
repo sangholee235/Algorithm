@@ -6,7 +6,7 @@ data.sort()
 first = data[n-1]
 second = data[n-2]
 
-result = 0
+result = 1
 
 while True:
     for i in range(k): # k번 반복
