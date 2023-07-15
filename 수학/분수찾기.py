@@ -8,7 +8,7 @@ while x>line:
     x -= line
     line += 1
 
-# 짝수 번째 줄이면
+# 짝수 번째 줄이면1
 if line % 2 == 0:
     a = x
     b = line - x + 1
