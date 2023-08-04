@@ -3,7 +3,7 @@ from collections import deque
 # 정점의 개수, 간선의 개수, 탐색을 시작할 정점
 vertex_num, edge, start = map(int,input().split())
 
-# 입력 받을 그래프 리스트
+# 입력 받을 그래프 리스트임
 graph = [[0]*2 for _ in range(edge)]
 
 # 그래프 변환용 리스트
