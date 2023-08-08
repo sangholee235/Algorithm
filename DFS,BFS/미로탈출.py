@@ -10,3 +10,10 @@ dy = [0,0,1,-1] # y좌표의 움직임 리스트
 for i in range(n):
     graph.append(list(map(int,input().split())))
 
+print(bfs(0,0))
+
+
+def bfs(x,y):
+    queue = deque()
+    queue.append((x,y))
+

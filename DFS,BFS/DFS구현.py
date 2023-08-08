@@ -42,7 +42,7 @@ def bfs(g,started,visited):
                queue.append(i)
                visited[i] = True
 
-
+# 커밋 테스트
 dfs(new_graph,start,visited)
 visited = [False] * (vertex_num+1)
 print(sep='\n')
