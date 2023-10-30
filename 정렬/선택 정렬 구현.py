@@ -7,4 +7,5 @@ for i in range(len(array)): # 배열 길이 반큼 반복
             min_index = j
     array[i],array[min_index] = array[min_index] , array[i]
 
+
 print(array)
