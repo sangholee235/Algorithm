@@ -8,7 +8,7 @@ for i in range(n):
 d = [10001] * (m+1)
 
 d[0] = 0
-for i in range(n): # 화폐의 개수만큼 반복문을 돈다
+for i in range(n): # 화폐의 개수만큼 반복문을 돈다 이러면 달라지니
     for j in range(array[i], m+1): # 화폐의 가격부터 총량까지 반복문을 돈다
         if d[j-array[i]] != 10001:
                 d[j] = min(d[j], d[j-array[i]] + 1)
