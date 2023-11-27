@@ -1,13 +1,8 @@
 arr = list(map(int,input()))
 
-result = 1
+result = int(arr[0])
 
-for i in arr:
-    if int(i) == 0:
-        result -= 1
-    elif int(i) == 1:
-        continue
-    else:
-        result = result * i
+for i in range(1,len(arr)):
+    num = int(arr[i])
 
 print(result)
