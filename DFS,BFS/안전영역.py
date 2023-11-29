@@ -17,10 +17,12 @@ for i in range(n):
     row = list(map(int, input().split()))
     matrix.append(row)
 
+# 집합을 하나 선언하고 매트릭스의 행들을 돌면서 모든 값 넣어버림
 heights = set()
 for row in matrix:
     heights.update(row)
 
+# 너비 우선 탐색 함수 (이거 외워둬야할듯)
 def bfs(graph, x, y):
     queue = deque()
     queue.append((x, y))
