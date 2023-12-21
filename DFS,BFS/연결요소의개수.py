@@ -23,7 +23,6 @@ def bfs(start):
                 visited[i] = 1
                 queue.append(i)
 
-
 for _ in range(m):
     u,v = map(int,input().split())
     graph[u].append(v)
