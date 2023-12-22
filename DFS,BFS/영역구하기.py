@@ -30,7 +30,6 @@ for Y in range(M):
         if field[Y][X] == 0:
             area.append(dfs(X,Y,count=1))
 
-
 print(len(area))
 print(*sorted(area))
 
