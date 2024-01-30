@@ -8,7 +8,7 @@ n,m = map(int,input().split())
 graph = [[] for _ in range(n+1)]
 visited = [0] * (n+1)
 
-# 연결요소의 개수Dlsep
+# 연결요소의 개수
 count = 0
 
 def bfs(start):
