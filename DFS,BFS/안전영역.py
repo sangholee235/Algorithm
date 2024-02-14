@@ -54,7 +54,7 @@ for i in heights:
             else:
                 new_matrix[x][y] = 1
 
-    # 새로운 매트릭스에서 bfs 수행
+    # 새로운 매트릭스에서 bfs 
     for x in range(n):
         for y in range(n):
             if new_matrix[x][y] == 1:
