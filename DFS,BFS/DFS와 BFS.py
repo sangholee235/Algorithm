@@ -1,6 +1,6 @@
 from collections import deque
 
-# 정점, 간선, 시작정점의 개수
+# 정점, 간선, 시작정점  개수
 vertex_num, edge, start = map(int,input().split())
 new_graph = [[]*2 for _ in range(vertex_num)]
 graph = [[0]*2 for _ in range(edge)]
