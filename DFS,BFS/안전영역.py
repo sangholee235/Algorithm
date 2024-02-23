@@ -22,7 +22,7 @@ heights = set()
 for row in matrix:
     heights.update(row)
 
-# 너비 우선 탐색 
+# 너비 우선 탐색 진행
 def bfs(graph, x, y):
     queue = deque()
     queue.append((x, y))
