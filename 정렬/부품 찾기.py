@@ -1,6 +1,6 @@
 N = int(input())
 item = list(map(int,input().split()))
-item.sort() # 오름차순 정렬
+item.sort() # 오름차순으로 정렬
 
 M = int(input())
 x = list(map(int,input().split()))
