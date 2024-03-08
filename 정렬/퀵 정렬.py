@@ -9,7 +9,7 @@ def quick_sort(array,start,end):
 
     while left <= right:
         while left <= end and array[left] <= array[pivot]:
-            # 피벗보다 큰 데이터를 찾을때 까지
+            # 피벗보다 큰 데이터 찾을때 까지
             left += 1
 
         while right > start and array[right] >= array[pivot]:
