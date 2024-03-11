@@ -3,7 +3,7 @@ sys.setrecursionlimit(10**6)
 
 M, N, K = map(int, sys.stdin.readline().split())
 
-# 2차원 n*m 을 채움
+# 2차원 n*m 을 채우기
 field = [[0 for _ in range(N)] for _ in range(M)] 
 
 for _ in range(K):
