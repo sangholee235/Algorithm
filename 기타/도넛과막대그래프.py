@@ -21,7 +21,7 @@ def solution(edges):
         elif exchangeCnt[0] >= 2 and exchangeCnt[1] >= 2:
             answer[3] += 1
 
-    # 모든 경우에서 2,3 경우를 빼면 1의 경우    
+    # 모든 경우에서 2,3 경우를 빼면 1의 경우가 남음 
     answer[1] = (exchangeCnts[answer[0]][0] - answer[2] - answer[3])
         
         
