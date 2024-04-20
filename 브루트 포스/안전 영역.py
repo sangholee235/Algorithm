@@ -15,7 +15,7 @@ for i in range(n):
     area[i] = list(map(int,input().split()))
 
 while 1:
-    # 강수량 ++
+    # 강수량 더해나가기
     for i in range(n):
         for j in range(n):
             area[i][j] += 1
