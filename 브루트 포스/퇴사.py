@@ -2,7 +2,6 @@
 n = int(input())
 
 # 작업리스트 선언
-
 work = [[]*2 for _ in range(n)]
 
 for i in work:
