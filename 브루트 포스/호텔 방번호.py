@@ -3,7 +3,7 @@ while 1:
         count = 0
         # 수의 범위 입력 받기
         a, b = map(int, input().split())
-        # 0~9 까지 초기화
+        # 0~9 까지 초기화ㅎㅏㄱㅣ
         num = [0 for i in range(10)]
 
         for i in range(a, b + 1):
