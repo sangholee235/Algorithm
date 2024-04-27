@@ -34,6 +34,6 @@ while 1:
             num = [0 for i in range(10)]
 
         print(count)
-    # 예외처리
+    # 예외
     except:
         break
