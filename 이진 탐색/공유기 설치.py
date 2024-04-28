@@ -14,6 +14,4 @@ right = house[-1] - house[0]
 while left<=right:
     mid = (left+right) // 2
 
-
-
 print(house)
