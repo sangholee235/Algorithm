@@ -5,7 +5,6 @@ for tc in range(1, T + 1):
 
     arr = [list(map(int, input())) for _ in range(N)]
 
-    # ex) 5 // 2 = 2
     half = N // 2
 
     answer = 0
