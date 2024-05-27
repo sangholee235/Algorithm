@@ -17,7 +17,7 @@ while True:
 
     if m == 0: # m번 반복이 끝났으면 반복문 탈출
         break
-    result += second # 두 번쨰로 큰 값 더해주기
+    result += second # 두 번쨰로 큰 값 ++
     m -= 1 # 횟수 차감
 
 print(result) # 결과값 출력
