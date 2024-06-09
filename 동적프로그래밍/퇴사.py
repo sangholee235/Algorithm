@@ -12,7 +12,7 @@ for i in range(n):
 # 반복문 거꾸로
 for i in range(n - 1, -1, -1):
     if t[i] + i > n:  # 상담일수가 퇴사일을 넘어가는 계산
-        dp[i] = dp[i + 1]  # 다음날 값으로
+        dp[i] = dp[i + 1]  # 다음날 값
 
     else:
         # 상담을 할 경우,안할 경우 중에서 max
