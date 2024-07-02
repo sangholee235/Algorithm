@@ -15,7 +15,7 @@ for i in range(n - 1, -1, -1):
         dp[i] = dp[i + 1]  # 다음날 값
 
     else:
-        # 상담을 할 경우 안할 경우 중 max
+        # 상담을 할 경우 안할 경우 중에서 max
         dp[i] = max(dp[i + 1], dp[t[i] + i] + p[i])
 
 print(dp[0])
