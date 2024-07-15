@@ -9,6 +9,6 @@ day = (tree - down) / (up - down)
 if day == int(day):
     print(int(day))
 
-# 그렇지 않다면 +1일을 해준다
+# 그렇지 않다면 +1일
 else:
     print(int(day) + 1)
