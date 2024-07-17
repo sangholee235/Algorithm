@@ -12,7 +12,7 @@ if line % 2 == 0:
     a = x
     b = line - x + 1
 
-# 홀수 번째 줄일 경우
+# 홀수 번째 줄인 경우
 else:
     a = line - x + 1
     b = x
