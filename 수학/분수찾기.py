@@ -13,7 +13,6 @@ if line % 2 == 0:
     b = line - x + 1
 
 # 홀수 번째 줄인 경우 고려
-
 else:
     a = line - x + 1
     b = x
