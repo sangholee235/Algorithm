@@ -1,15 +1,15 @@
 n = int(input())
 
-money = list(map(int,input().split()))
+money = list(map(int, input().split()))
 
 bg = int(input())
 
 left = 0
 right = max(money)
 
-#다 합해도 안넘는 예외처리
-if sum(money)<=bg:
-   print(max(money))
+# 다 합해도 안넘는 예외처리
+if sum(money) <= bg:
+    print(max(money))
 
 else:
     while left <= right:
@@ -24,11 +24,9 @@ else:
             else:
                 sum += i
 
-        if sum > bg:  # 예산초과하는경우 상한액을 낮춰야한다
+        if sum > bg:  # 예산초과하는경우 상한액을 낮춰야함
             right = mid - 1
         else:
             left = mid + 1
 
     print(mid)
-
-
