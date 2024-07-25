@@ -24,7 +24,7 @@ else:
             else:
                 sum += i
 
-        if sum > bg:  # 예산초과하는경우 상한액을 낮춰야함
+        if sum > bg:  # 예산초과하는경우 상한액을 낮춰야한다
             right = mid - 1
         else:
             left = mid + 1
