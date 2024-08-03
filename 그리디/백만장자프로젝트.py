@@ -17,7 +17,7 @@ for test_case in range(1, T + 1):
     money = 0
 
     for i in range(len(num_list)):
-        # 앞에서 부터 빼고 삭제
+        # 앞에서 부터 빼고 삭제한다
         val = num_list.pop(0)
         # 현재 값이 최댓값이라면
         if val == max_value:
